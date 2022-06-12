@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Animal Classification</string>
+    <string name="aquatic">Aquatic</string>
+    <string name="mammals">Mammals</string>
+    <string name="birds">Birds</string>
+    <string name="reptiles">Reptiles</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <string name="delete_dialog_msg">Delete this Animal?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <string-array name="array_type_options">
+        <item>@string/aquatic</item>
+        <item>@string/mammals</item>
+        <item>@string/birds</item>
+        <item>@string/reptiles</item>
+    </string-array>
+</resources>
